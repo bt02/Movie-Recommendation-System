@@ -5,7 +5,8 @@ Creation of movie recommendation system while also modifying it to hand the cold
 ## Recommendation system: 
 ![Imgur](https://i.imgur.com/U2HsYnL.png)
 
-The recommendation system uses collaborative filtering to match similar users together . 11 different models were tested to find the best fit. The Baseline Only algorithm was chosen due to it relatively low root mean squared error (RMSE) and low run times.
+The recommendation system uses collaborative filtering to match similar users together . 11 different models were tested to find the best fit. The Baseline Only algorithm was chosen due to it relatively low root mean squared error (RMSE) and low run times. With any recommendation system the problem of the cold start is an issue: How to handle new users with no data. Two solutions are proposed as to how this system will handle it.
+
 
 ### Cold Start: Solution 1:
 ![Imgur](https://i.imgur.com/byHSSzM.png)
@@ -20,7 +21,7 @@ The result of the questions would output the top 5 recommendation based on the u
 The second solution is to display a general list of movies that have a high number of ratings along with a high average movie rating. This will act as a general list of most liked movies. A variation of this option is to adjust the general recommendation with any user data present. 
 *	Ex: Gender and or Age
 
-Once this data is received the model would output recommendations that a typical male or female would like would simultaneously adjusting the release dates of the movies so that only title made in the users lifespan are shown for more familiarity 
+Once this data is received the model would output recommendations that a typical male or female would like would simultaneously adjusting the release dates of the movies so that only title made in the users lifespan are shown for more familiarity.
 
 ## Best decade for movies: 
 ![Imgur](https://i.imgur.com/UdyoCfc.png)
